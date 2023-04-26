@@ -9,11 +9,11 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
+      <h1 className={styles.h1}>Welcome To Mint A Srimp!</h1>
 
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
+        Here is our <b>NFT Drop</b> where we allow users to mint
+        the NFTs.
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
