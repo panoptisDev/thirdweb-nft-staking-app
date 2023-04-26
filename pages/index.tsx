@@ -18,9 +18,9 @@ const Home: NextPage = () => {
         >
           {/* Mint a new NFT */}
           <Image src="/icons/simp192x192.png" alt="drop" width={64} height={64} />
-          <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
+          <h2 className={styles.selectBoxTitle}>Mint a new Shrimp NFT</h2>
           <p className={styles.selectBoxDescription}>
-            Use the NFT Drop Contract to claim an NFT from the collection.
+            Come on in and claim a Shrimp from the collection.
           </p>
         </div>
 
@@ -31,10 +31,10 @@ const Home: NextPage = () => {
         >
           {/* Staking an NFT */}
           <Image src="/icons/jelly200x200.png" alt="token" width={64} height={64} />
-          <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
+          <h2 className={styles.selectBoxTitle}>Stake Your Shrimp NFT and receive JELLY Tokens</h2>
           <p className={styles.selectBoxDescription}>
-            Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}
-            to stake your NFTs, and earn tokens from the <b>Token</b> contract.
+            Use our <b>Staking vault</b>{" "}
+            to stake your NFTs, and earn JELLY tokens from the <b>Treasury</b> vault.
           </p>
         </div>
       </div>
